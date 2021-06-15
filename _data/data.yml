@@ -17,7 +17,7 @@ experiences:
   - 
     company: Corelogic
     details: |
-        Building and maintaining models for the insurance, mortgage industry using various modelling methods and tequeniques.  Most recently focussed on deep learning and computer vision. 
+        - Building and maintaining models for the insurance, mortgage industry using various modelling methods and tequeniques.  Most recently focussed on deep learning and computer vision. 
              - Refreshed existing marketing models for the mortgage industry improving performance by more than 10%
              - Updated Automated QC process for marketing models and allowing it to run multiple models at the same time and improving the speed by 50%
              - Authored a blog post related to the marketing models that analyzed trends in the mortgage industry and showed how our models could help companies
@@ -30,7 +30,7 @@ experiences:
   - 
     company: CoreLogic
     details: |
-        Business analyst focussed on supporting two large insurance clients.
+        - Business analyst focussed on supporting two large insurance clients.
              - Built inspection optimization model using system inspection data that predicts hazardous conditions on homes. Analyzed performance and presented information to clients.
              - Created and implemented monthly process to run properties through industry model (approximately 10000 properties a month currently)
              - Built automated monthly process that collects roof age data from company apis and sends data to client (runs 5000 properties a month)
@@ -42,7 +42,7 @@ experiences:
   - 
     company: CoreLogic
     details: |
-        Myriad was acquired by CoreLogic in Sept 2017
+        - Myriad was acquired by CoreLogic in Sept 2017
              - Developed change orders to our platform by working with our business partner to define requirements
              - Managed the development of change orders through software development, quality assurance and development release processes using JIRA
              - Lead Business Analyst on the two largest insurance companies on our platform
