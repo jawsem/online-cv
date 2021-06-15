@@ -1,64 +1,23 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
-sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
-
-    # Profile information
-    name: Jawsem Al-Hashash 
-    tagline: Data Scientist
-    avatar: profile_pic.jpeg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
-    # Sidebar links
-    email: jfalhashash@gmail.com
-    phone: # 012 345 6789
-    website: # blog.webjeda.com #do not add http://
-    linkedin: jawsem-al-hashash 
-    xing: # alandoe
-    github:  jawsem
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter:
-    stack-overflow: 12777943/jawsem  # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-
-    languages:
-      - idiom: English
-        level: Native
-
-    interests:
-      - item: Reading 
-        link:
-
-      - item: Cooking 
-        link:
-
-      - item: Running 
-        link:
-
-career-profile:
-    title: Career Profile
-    summary: |
+--- 
+career-profile: 
+  summary: |
       I have a passion for getting insight of data, whether it be extracting, analyzing, visualizing and modelling.
       I also love learning new concepts and solving problems using programming.
-
-education:
-    - degree: Masters of Science in Data Analytics
-      university: Western Governors University 
-      time: 2019
-    - degree: Bachelor of Arts Economics
-      university: University of California, Davis
-      time: 2009 - 2012
-experiences:
-    - role: Senior Data Scientist 
-      time: Feb 2020 - Present
-      company: Corelogic 
-      details: |
-                   Building and maintaining models for the insurance, mortgage industry using various modelling methods and tequeniques.  Most recently focussed on deep learning and computer vision. 
+  title: "Career Profile"
+education: 
+  - 
+    degree: "Masters of Science in Data Analytics"
+    time: 2019
+    university: "Western Governors University"
+  - 
+    degree: "Bachelor of Arts Economics"
+    time: "2009 - 2012"
+    university: "University of California, Davis"
+experiences: 
+  - 
+    company: Corelogic
+    details: |
+        Building and maintaining models for the insurance, mortgage industry using various modelling methods and tequeniques.  Most recently focussed on deep learning and computer vision. 
              - Refreshed existing marketing models for the mortgage industry improving performance by more than 10%
              - Updated Automated QC process for marketing models and allowing it to run multiple models at the same time and improving the speed by 50%
              - Authored a blog post related to the marketing models that analyzed trends in the mortgage industry and showed how our models could help companies
@@ -66,10 +25,11 @@ experiences:
              - Provided sales support for existing models in meetings with prospective customers
              - Built deep learning classification model to predict key property attributes for flood risk
              - Built end to end pipeline to segment and measure properties from images using deep learning which serves as a the backbone of a product estimated to earn $11 million in revenue in two years
-    - role: Senior Business Analyst
-      time: Feb 2019 - Feb 2020
-      company: CoreLogic 
-      details: |
+    role: "Senior Data Scientist"
+    time: "Feb 2020 - Present"
+  - 
+    company: CoreLogic
+    details: |
         Business analyst focussed on supporting two large insurance clients.
              - Built inspection optimization model using system inspection data that predicts hazardous conditions on homes. Analyzed performance and presented information to clients.
              - Created and implemented monthly process to run properties through industry model (approximately 10000 properties a month currently)
@@ -77,11 +37,11 @@ experiences:
              - Extracted data and created presentations for multiple clients on KPIs on usage of our platform
              - Maintain and create multiple automated data extractions for external clients and internal stakeholders
              - Continuation of previous role as BA. Managing the implementations and relationships with large property casualty insurers
-
-    - role: Professional Business Analyst
-      time: Sept 2017 - Feb 2019
-      company: CoreLogic 
-      details: |
+    role: "Senior Business Analyst"
+    time: "Feb 2019 - Feb 2020"
+  - 
+    company: CoreLogic
+    details: |
         Myriad was acquired by CoreLogic in Sept 2017
              - Developed change orders to our platform by working with our business partner to define requirements
              - Managed the development of change orders through software development, quality assurance and development release processes using JIRA
@@ -91,44 +51,79 @@ experiences:
              - Analyzed customer data with Python  and SQL for onsite presentations
              - Identified deficiencies in our data warehouse  and helped resolve them to improving our internal warehousing processes
              - Presented data metrics to customers using powerpoint in onsite Account Review meetings
-    - role: Business Analyst
-      time: June 2015 - Sept 2017
-      company: Myriad Development Inc 
-      details: |
-             - Developed change orders to our platform by working with our business partner to define requirements
-             - Managed the development of change orders through software development, quality assurance and development release processes using JIRA
-             - Lead Business Analyst on the two largest insurance companies on our platform
-             - Extracted data from our oracle database using SQL queries to obtain pertinent information
-
-    - role: Operations Analyst
-      time: Sept 2014 - June 2015
-      company: Myriad Development Inc 
-      details: |
-             - Reviewed and provided Quality assurance to our property determinations in our Title Underwriting product for CA
-             - Provided customer support for our Title Underwriting product
-             - Researched product to determine enhancements that can increase ease of use for our customers
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Machine Learning
-        level: 90%
-        
-      - name: Machine Learning & Data Analysis
-        level: 90%
-        
-      - name: SQL (BigQuery, Sql Server, Oracle)
-        level: 90%
-
-      - name: Linux & Bash
-        level: 80%
-
-      - name: Pytorch & Fastai 
-        level: 80%
-
-      - name: Cloud Tools (Google Cloud Platform) 
-        level: 70%
-
-      - name: R
-        level: 60%
-
+    role: "Professional Business Analyst"
+    time: "Sept 2017 - Feb 2019"
+  - 
+    company: "Myriad Development Inc"
+    details: |
+        - Developed change orders to our platform by working with our business partner to define requirements
+        - Managed the development of change orders through software development, quality assurance and development release processes using JIRA
+        - Lead Business Analyst on the two largest insurance companies on our platform
+        - Extracted data from our oracle database using SQL queries to obtain pertinent information
+    role: "Business Analyst"
+    time: "June 2015 - Sept 2017"
+  - 
+    company: "Myriad Development Inc"
+    details: |
+        - Reviewed and provided Quality assurance to our property determinations in our Title Underwriting product for CA
+        - Provided customer support for our Title Underwriting product
+        - Researched product to determine enhancements that can increase ease of use for our customers
+    role: "Operations Analyst"
+    time: "Sept 2014 - June 2015"
+sidebar: 
+  about: true
+  avatar: profile_pic.jpeg
+  bitbucket: ~
+  codewars: ~
+  education: true
+  email: jfalhashash@gmail.com
+  github: jawsem
+  gitlab: ~
+  goodreads: ~
+  interests: 
+    - 
+      item: Reading
+      link: ~
+    - 
+      item: Cooking
+      link: ~
+    - 
+      item: Running
+      link: ~
+  languages: 
+    - 
+      idiom: English
+      level: Native
+  linkedin: jawsem-al-hashash
+  name: "Jawsem Al-Hashash"
+  phone: ~
+  stack-overflow: 12777943/jawsem
+  tagline: "Data Scientist"
+  telegram: ~
+  twitter: ~
+  website: ~
+  xing: ~
+skills: 
+  title: "Skills & Proficiency"
+  toolset: 
+    - 
+      level: 90%
+      name: "Python & Machine Learning"
+    - 
+      level: 90%
+      name: "Machine Learning & Data Analysis"
+    - 
+      level: 90%
+      name: "SQL (BigQuery, Sql Server, Oracle)"
+    - 
+      level: 80%
+      name: "Linux & Bash"
+    - 
+      level: 80%
+      name: "Pytorch & Fastai"
+    - 
+      level: 70%
+      name: "Cloud Tools (Google Cloud Platform)"
+    - 
+      level: 60%
+      name: R
