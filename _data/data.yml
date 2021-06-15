@@ -71,7 +71,7 @@ experiences:
     role: "Operations Analyst"
     time: "Sept 2014 - June 2015"
 sidebar: 
-  about: true
+  about: false
   avatar: profile_pic.jpeg
   bitbucket: ~
   codewars: ~
@@ -82,10 +82,10 @@ sidebar:
   goodreads: ~
   interests: 
     - 
-      item: Reading
+      item: Reading (Sci-Fi and Fantasy)
       link: ~
     - 
-      item: Cooking
+      item: Playing with my two dogs
       link: ~
     - 
       item: Running
