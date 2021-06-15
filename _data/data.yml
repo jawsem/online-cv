@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Jawsem Al-Hashash 
     tagline: Data Scientist
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile_pic.jpeg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: jfalhashash@gmail.com
@@ -17,24 +17,18 @@ sidebar:
     website: # blog.webjeda.com #do not add http://
     linkedin: jawsem-al-hashash 
     xing: # alandoe
-    github: # jawsem
+    github:  jawsem
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
     twitter:
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    stack-overflow: 12777943/jawsem  # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
         level: Native
-
-        #- idiom: French
-        #level: Professional
-        #
-        #- idiom: Spanish
-        #level: Professional
 
     interests:
       - item: Reading 
@@ -60,90 +54,82 @@ education:
       university: University of California, Davis
       time: 2009 - 2012
 experiences:
+
     - role: Senior Data Scientist 
-      time: 2020 - Present
+      time: Feb 2020 - Present
       company: Corelogic 
       details: |
-       Building and maintaining models for the insurance, mortgage industry using various modelling methods and tequeniques.  Most recently focussed on deep learning and computer vision. 
-          - example project
-          - example project
+                   Building and maintaining models for the insurance, mortgage industry using various modelling methods and tequeniques.  Most recently focussed on deep learning and computer vision. 
+             - Refreshed existing marketing models for the mortgage industry improving performance by more than 10%
+             - Updated Automated QC process for marketing models and allowing it to run multiple models at the same time and improving the speed by 50%
+             - Authored a blog post related to the marketing models that analyzed trends in the mortgage industry and showed how our models could help companies
+             - Analyzed and assessed existing models and provided projected lift from model refreshes and new data acquisitions
+             - Provided sales support for existing models in meetings with prospective customers
+             - Built deep learning classification model to predict key property attributes for flood risk
+             - Built end to end pipeline to segment and measure properties from images using deep learning which serves as a the backbone of a product estimated to earn $11 million in revenue in two years
     - role: Senior Business Analyst
-      time: 2019 - 2020
+      time: Feb 2019 - Feb 2020
       company: CoreLogic 
       details: |
         Business analyst focussed on supporting two large insurance clients.
-          - example project
-          - example project
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+             - Built inspection optimization model using system inspection data that predicts hazardous conditions on homes. Analyzed performance and presented information to clients.
+             - Created and implemented monthly process to run properties through industry model (approximately 10000 properties a month currently)
+             - Built automated monthly process that collects roof age data from company apis and sends data to client (runs 5000 properties a month)
+             - Extracted data and created presentations for multiple clients on KPIs on usage of our platform
+             - Maintain and create multiple automated data extractions for external clients and internal stakeholders
+             - Continuation of previous role as BA. Managing the implementations and relationships with large property casualty insurers
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+    - role: Professional Business Analyst
+      time: Sept 2017 - Feb 2019
+      company: CoreLogic 
+      details: |
+        Myriad was acquired by CoreLogic in Sept 2017
+             - Developed change orders to our platform by working with our business partner to define requirements
+             - Managed the development of change orders through software development, quality assurance and development release processes using JIRA
+             - Lead Business Analyst on the two largest insurance companies on our platform
+             - Extracted data from our oracle database using SQL queries to obtain pertinent information for business partners
+             - Automated monthly data extracts using Python and SQLplus
+             - Analyzed customer data with Python  and SQL for onsite presentations
+             - Identified deficiencies in our data warehouse  and helped resolve them to improving our internal warehousing processes
+             - Presented data metrics to customers using powerpoint in onsite Account Review meetings
+    - role: Business Analyst
+      time: June 2015 - Sept 2017
+      company: Myriad Development Inc 
+      details: |
+             - Developed change orders to our platform by working with our business partner to define requirements
+             - Managed the development of change orders through software development, quality assurance and development release processes using JIRA
+             - Lead Business Analyst on the two largest insurance companies on our platform
+             - Extracted data from our oracle database using SQL queries to obtain pertinent information
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
+    - role: Operations Analyst
+      time: Sept 2014 - June 2015
+      company: Myriad Development Inc 
+      details: |
+             - Reviewed and provided Quality assurance to our property determinations in our Title Underwriting product for CA
+             - Provided customer support for our Title Underwriting product
+             - Researched product to determine enhancements that can increase ease of use for our customers
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python & Machine Learning
+        level: 90%
+        
+      - name: Machine Learning & Data Analysis
+        level: 90%
+        
+      - name: SQL (BigQuery, Sql Server, Oracle)
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Linux & Bash
+        level: 80%
 
-      - name: Angular
-        level: 98%
+      - name: Pytorch & Fastai 
+        level: 80%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Cloud Tools (Google Cloud Platform) 
+        level: 70%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: R
         level: 60%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
