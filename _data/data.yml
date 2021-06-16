@@ -1,8 +1,8 @@
 --- 
 career-profile: 
   summary: |
-      I have a passion for getting insight of data, whether it be extracting, analyzing, visualizing and modelling.
-      I also love learning new concepts and solving problems using programming.
+      I have a passion for getting insight of data, whether it be extracting, analyzing, visualizing and modeling.
+      I seek out opportunities to learn new concepts and ways of solving business problems.
   title: "Career Profile"
 education: 
   - 
@@ -17,9 +17,9 @@ experiences:
   - 
     company: Corelogic
     details: |
-        - Building and maintaining models for the insurance, mortgage industry using various modelling methods and tequeniques.  Most recently focussed on deep learning and computer vision. 
+        - Building and maintaining models for the insurance, mortgage industry using various modelling methods and tequeniques.  Most recently focused on deep learning and computer vision. 
              - Refreshed existing marketing models for the mortgage industry improving performance by more than 10%
-             - Updated Automated QC process for marketing models and allowing it to run multiple models at the same time and improving the speed by 50%
+             - Updated Automated QC process for marketing models, allowing it to run multiple models at the same time and improving the speed by 50%
              - Authored a blog post related to the marketing models that analyzed trends in the mortgage industry and showed how our models could help companies
              - Analyzed and assessed existing models and provided projected lift from model refreshes and new data acquisitions
              - Provided sales support for existing models in meetings with prospective customers
@@ -30,12 +30,12 @@ experiences:
   - 
     company: CoreLogic
     details: |
-        - Business analyst focussed on supporting two large insurance clients.
+        - Business analyst focused on supporting two large insurance clients.
              - Built inspection optimization model using system inspection data that predicts hazardous conditions on homes. Analyzed performance and presented information to clients.
              - Created and implemented monthly process to run properties through industry model (approximately 10000 properties a month currently)
              - Built automated monthly process that collects roof age data from company apis and sends data to client (runs 5000 properties a month)
              - Extracted data and created presentations for multiple clients on KPIs on usage of our platform
-             - Maintain and create multiple automated data extractions for external clients and internal stakeholders
+             - Maintained and created multiple automated data extractions for external clients and internal stakeholders
              - Continuation of previous role as BA. Managing the implementations and relationships with large property casualty insurers
     role: "Senior Business Analyst"
     time: "Feb 2019 - Feb 2020"
